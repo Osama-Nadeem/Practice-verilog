@@ -1,0 +1,86 @@
+$date
+	Thu May  6 02:29:13 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module fulladder_tb $end
+$var wire 1 ! c_out $end
+$var wire 1 " sum_tb $end
+$var wire 1 # xor2_out $end
+$var wire 1 $ xor1_out $end
+$var wire 1 % and2_out $end
+$var wire 1 & and1_out $end
+$var reg 1 ' a_tb $end
+$var reg 1 ( b_tb $end
+$var reg 1 ) c_in_tb $end
+$scope module halfadder1 $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$var wire 1 & c $end
+$var wire 1 $ sum $end
+$upscope $end
+$scope module halfadder2 $end
+$var wire 1 $ a $end
+$var wire 1 ) b $end
+$var wire 1 % c $end
+$var wire 1 # sum $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#5
+1"
+1#
+1$
+1(
+#10
+0(
+1'
+#15
+0"
+0#
+1!
+0$
+1&
+1(
+#20
+0!
+1"
+1#
+0&
+1)
+0(
+0'
+#25
+1!
+0"
+0#
+1%
+1$
+1(
+#30
+0(
+1'
+#35
+1"
+1#
+0%
+0$
+1&
+1(
+#115
